@@ -1,0 +1,15 @@
+/* tailwind.css */
+:root[class~="dark"] {
+    --bg-color: #1a202c;
+    --text-color: #f7fafc;
+    /* הוסף כאן עוד משתנים לצבעים שתרצה להשתמש בהם */
+  }
+  
+  .bg-custom-dark {
+    background-color: var(--bg-color);
+  }
+  
+  .text-custom-dark {
+    color: var(--text-color);
+  }
+  
