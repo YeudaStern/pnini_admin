@@ -49,6 +49,8 @@ export async function POST(req: NextRequest) {
             cancel_url: `${process.env.ECOMMERCE_STORE_URL}/cart`,
         });
 
+        
+
         return NextResponse.json(session, { headers: corsHeaders });
     } catch (err) {
         console.log("[checkout_POST]", err);
